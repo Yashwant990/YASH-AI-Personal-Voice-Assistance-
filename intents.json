@@ -1,0 +1,386 @@
+{
+    "intents": [
+        {
+            "tag": "general_query",
+            "patterns": [
+                "Who is prime minister of India?",
+                "Who is president of INDIA?",
+                "What is the capital of India?",
+                
+                "Who is the president of France",
+                "What is the capital of Canada",
+                "How does a black hole work",
+                "Can you tell me about the solar system",
+                "What is the distance to the moon",
+                "Tell me a fact about space",
+                "random question",
+                "search for something",
+                "I have a question",
+                "look up this information",
+                "find me information on",
+                "What's the weather like today?",
+                "How tall is Mount Everest?",
+                "Who won the World Series in 2020?",
+                "What is the largest mammal on Earth?",
+                "Can you explain quantum computing?",
+                "What are the health benefits of green tea?"
+            ],
+            "responses": [
+                "API_CALL_NEEDED"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo",
+                "Hello Jarvis",
+                "Hello",
+                "hi",
+                "hey there",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "whats up",
+                "how are things going",
+                "greetings",
+                "nice to meet you"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hey! How can I assist you today?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye",
+                "farewell",
+                "I have to go now",
+                "see ya",
+                "talk to you later"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "thank you so much",
+                "I appreciate that",
+                "cheers",
+                "thanks a lot"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're welcome!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand",
+                "Could you rephrase that?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh",
+                "I need a laugh",
+                "do you know any jokes"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "what is your name",
+                "who made you",
+                "your purpose"
+            ],
+            "responses": [
+                "I am YASH, a Deep-Learning based Virtual Assistant"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is is today",
+                "what is the current time",
+                "what is the current date",
+                "tell me the day",
+                "can you give me the time",
+                "what day of the week is it"
+            ],
+            "responses": [
+                "Date and Time"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing",
+                "how are you feeling",
+                "are you good",
+                "how are you holding up"
+            ],
+            "responses": [
+                "All good..What about you?",
+                "I am functioning optimally, thank you for asking."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny",
+                "you're funny",
+                "that made me laugh"
+            ],
+            "responses": [
+                "Glad I could make you laugh !",
+                "I aim to please!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you",
+                "who is your creator"
+            ],
+            "responses": [
+                "I was made by Yashwant Nayak."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot",
+                "you suck",
+                "I hate you",
+                "stupid bot"
+            ],
+            "responses": [
+                "Well that hurts :(",
+                "I'm sorry you feel that way."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto",
+                "what is your current task",
+                "busy right now"
+            ],
+            "responses": [
+                "Talking to you, of course!",
+                "Just standing by for your next command."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah",
+                "perfect",
+                "cool"
+            ],
+            "responses": [
+                "Yeah!",
+                "Understood."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good",
+                "great job",
+                "excellent work"
+            ],
+            "responses": [
+                "Thank you!",
+                "I appreciate your kind words."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk",
+                "see you soon",
+                "end conversation"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope",
+                "I don't think so",
+                "negative"
+            ],
+            "responses": [
+                "ok",
+                "Acknowledged."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                "i'm fine",
+                "good",
+                "I am well",
+                "fine thank you"
+            ],
+            "responses": [
+                "Good to know!",
+                "I'm glad to hear that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age",
+                "your date of birth"
+            ],
+            "responses": [
+                "I was made in 2025, if that's what you are asking!"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
